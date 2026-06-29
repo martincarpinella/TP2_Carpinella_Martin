@@ -1,0 +1,367 @@
+    1  ls
+    2  echo "hola vagrant"
+    3  mkdir clase4
+    4  ls -l
+    5  cd clase4/
+    6  pwd
+    7  ls -l
+    8  history
+    9  pwd
+   10  ssh-keygen -t ed25519
+   11  ls -la
+   12  cd .ssh
+   13  ls -l
+   14  pwd
+   15  cd -
+   16  pwdd
+   17  x
+   18  cexa e pp
+   19  exit
+   20  pwd
+   21  ls -l
+   22  cd repogit
+   23  ls -l
+   24  git clone git@github.com:martincarpinella/vmvagrant_repo.git
+   25  ls -l
+   26  cd vmvagrant_repo/
+   27  ls -l
+   28  echo "mi primer repo"
+   29  echo "mi primer repo" > texto1.txt
+   30  ls -l
+   31  cat texto1.txt 
+   32  git status
+   33  git add .
+   34  git status
+   35  ped
+   36  pwd
+   37  -1
+   38  -l
+   39  ls -l
+   40  cat archivo3.txt
+   41  tree
+   42  sudo apt update
+   43  sudo apt install tree
+   44  tree
+   45  mkdir clase5
+   46  cd clase5/
+   47  ls -l
+   48  mkdir practica
+   49  ls -l
+   50  cd practica/
+   51  ls -l
+   52  touch practica1.txt
+   53  ls -l
+   54  cat practica1.txt
+   55  cp practica1.txt practica2.txt
+   56  ls -l
+   57  rm practica1.txt
+   58  ls -l
+   59  mv practica2.txt /home/vagrant/clase5/
+   60  ls -l
+   61  cd ..
+   62  ls -l
+   63  rmdir practica/
+   64  ls -l
+   65  pwd
+   66  mkdir facturas pedidos
+   67  tree
+   68  mkdir -p clientes/{facturas,pedidos}
+   69  tree
+   70  mkdir -p {clientes,proveedores}/{facturas,pedidos}
+   71  tree
+   72  mkdir -p contactos/{cliente,proveedores}/{facturas,pedidos}
+   73  tree
+   74  mkdir -p carpinella_1/contactos/{cliente,proveedores}/{facturas,pedidos}
+   75  tree
+   76  ls -l
+   77  cd clase5
+   78  ls -l
+   79  tree
+   80  mkdir -p carpinella_2{mama/hijo{1..3},papa/hijo{1..3},ahijado}}
+   81  tree
+   82  rm carpinella_2ahijado}
+   83  rmdir carpinella_2ahijado}
+   84  tree
+   85  rmdir carpinella_2mama
+   86  rm -r carpinella_2mama
+   87  rm -r carpinella_2papa
+   88  tree
+   89  mkdir-p carpinella_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+   90  mkdir -p carpinella_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+   91  tree
+   92  grep vagrant /etc/password
+   93  grep vagrant /etc/passwd
+   94  cat /etc/passwd
+   95  cat /etc/shadow
+   96  sudo cat /etc/shadow
+   97  grep vagrant /etc/shadow
+   98  sudo grep vagrant /etc/shadow
+   99  sudo su
+  100  cd ..
+  101  sudo groupadd alumnos
+  102  cat /etc/group
+  103  sudo useradd -m -s /bin/bash -c "alumno pepe" -G alumnos pepe
+  104  cat /etc/passwd
+  105  cat /etc/group
+  106  ls -l /home
+  107  passwd pepe
+  108  pwd
+  109  su - pepe
+  110  vagrant halt
+  111  su - pepe
+  112  pwd
+  113  sudo usermod -aG sudo pepe
+  114  pepe
+  115  su - pepe
+  116  wd
+  117  sd
+  118  pwd
+  119  exit
+  120  ssh-keygen -t ed25519
+  121  cat $HOME/ssh/*.pub
+  122  cat&$4asksdksk$h
+  123  cat &home/ssh/*.pub
+  124  cat &home/ssh/.pub
+  125  cat $HOME/.ssh/*.pub
+  126  vagrant ssh-config
+  127  ssh-config
+  128  ssh-keygen -t ed25519
+  129  /home/vagrant/.ssh/id_ed25519.pub
+  130  sudo /home/vagrant/.ssh/id_ed25519.pub
+  131  ls -la
+  132  sudo /home/vagrant/.ssh/id_ed25519.pub
+  133  /home/vagrant/.ssh/id_ed25519.pub
+  134  sudo /home/vagrant/.ssh/id_ed25519.pub
+  135  sudo home/vagrant/.ssh/id_ed25519.pub
+  136  sudo/home/vagrant/.ssh/id_ed25519.pub
+  137  cd repogit
+  138  ls -l
+  139  ssh-keygen -t ed25519 -C carpinellamartin@gmail.com
+  140  ls -al ~/.ssh
+  141  clip < ~/.ssh/id_ed25519.pub
+  142  cat ~/.ssh/id_ed25519.pub | clip
+  143  pbcopy < ~/.ssh/id_ed25519.pub
+  144  bcopy < ~/.ssh/id_ed25519.pub
+  145  cd ..
+  146  pwd
+  147  ssh-keygen -t ed 25519
+  148  vagrant halt
+  149  ssh-keygen -t ed25519
+  150  ls -la
+  151  cd .ssh
+  152  ls -l
+  153  cat id_ed25519.pub 
+  154  cd repogit
+  155  cd ..
+  156  cd repogit
+  157  ls-l
+  158  ls -l
+  159  git clone git@github.com:martincarpinella/TP_AySO.git
+  160  cd TP_AySO/
+  161  pwd
+  162  ls -l
+  163  cat /etc/os-release
+  164  man grep
+  165  grep git@github.com:martincarpinella/TP_AySO.git/etc/os-release
+  166  cd repogit
+  167  ls -la
+  168  cd TP_AySO/
+  169  pwd
+  170  ls -l
+  171  cat /etc/os-release
+  172  man grep
+  173  grep git@github.com:martincarpinella/TP_AySO.git /etc/os-release
+  174  grep git@github.com:martincarpinella/TP_AySO.git/etc/os-release
+  175  exit
+  176  cdcdcdt
+  177  cd repogit
+  178  cd TP_AySO/
+  179  cat /etc/os-release
+  180  man grep
+  181  grep HOME_URL /etc/os-release
+  182  grep home_url /etc/os-release
+  183  grep -i Home_url /etc/os-release
+  184  grep -i Home_url /etc/os-release > datos_url.txt
+  185  whoami
+  186  echo "Usuario=$(whoami) > datos_usuario.txt
+  187  ls
+  188  ss
+  189  d
+  190  s
+  191  s
+  192  s
+  193  s
+  194  s
+  195  s
+  196  as
+  197  s
+  198  s
+  199  exit
+  200  cd repogit
+  201  cd TP_AySO/
+  202  ls -la
+  203  whoami
+  204  echo "Usuario=4(whoami)" > datos_usuario.txt
+  205  ls -la
+  206  git add .
+  207  git config --global user.email "carpinellamartin@gmail.com"
+  208  git config --global user.name "martincarpinella"
+  209  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  210  git status
+  211  git push
+  212  /proc/cpuinfo
+  213  sudo proc/cpuinfo
+  214  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  215  git add .
+  216  git commit -m "feat: Añadiendo informacion de CPU"
+  217  git status
+  218  git push
+  219  cat <<EOF >> README.md
+  220  Alumno: <martin carpinella>
+  221  division: <113>
+  222  turno: <Mañana>
+  223  EOF
+  224  git add README.md datos_usuario.txt
+  225  git commit -m "ADD: añadiendo readme y datos de usuario"
+  226  git push
+  227  mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+  228  histoy -a
+  229  cp ~/.bash_history ./Historial_comandos_Carpinella.txt
+  230  git add .
+  231  git commit -m "ADD: Historial de comandos de Carpinella"
+  232  git push
+  233  exit
+  234  cd repogit
+  235  cd ..
+  236  ls -la
+  237  cd repogit
+  238  ls -la
+  239  ls -l
+  240  cat vmvagrant_repo
+  241  exit
+  242  pwd
+  243  exit
+  244  pwd
+  245  ls -l
+  246  cd repogit
+  247  ls -l
+  248  cd TP_AySO/
+  249  ls -l
+  250  cat datos_usuario.txt
+  251  cat README.md
+  252  tree
+  253  cd ..
+  254  tree
+  255  exit
+  256  ls -l
+  257  whoami
+  258  pwd
+  259  ls -l /home
+  260  cd /home/pepe
+  261  ls -l /home/pepe
+  262  su - pepe
+  263  cd clase 8
+  264  mkdir clase8
+  265  ls -l
+  266  cd clase 8
+  267  cd clase8
+  268  echo "linea1" > practica1.txt
+  269  echo "linea2" > practica2.txt
+  270  ls -l
+  271  pwd
+  272  chmod 600 practica.txt
+  273  chmod 600 practica1.txt
+  274  ls -l
+  275  chmod 444 practica2.txt
+  276  ls -l
+  277  echo "nueva linea" >> 
+  278  echo "nueva linea" >>practica2.txt
+  279  chmod 644 practica2.txt
+  280  ls -l
+  281  echo "nueva linea" >>practica2.txt
+  282  cat practica2.txt
+  283  cd ..
+  284  ls -l
+  285  chmod -R 777 clase8/
+  286  ls -l
+  287  cd clase 8
+  288  cd clase8
+  289  ls -l
+  290  chmod 666 °.txt
+  291  cd ..
+  292  cd clase8
+  293  vim script
+  294  cd clase8
+  295  ls -l
+  296  vim script1.sh
+  297  ls -l
+  298  ./script1.sh
+  299  chmod 755 script1.sh
+  300  ls -l
+  301  ./script.sh
+  302  ./script1.sh
+  303  pwd
+  304  vim script1.sh
+  305  cat script1.sh
+  306  exit
+  307  ls -l ~/.ssh
+  308  cat ~/.ssh/id_ed25519.pub
+  309  ssh-keygen -l -f ~/.ssh/id_ed25519.pub
+  310  ls -l
+  311  cd repogit
+  312  ls -l
+  313  cd TP_AySO
+  314  ls -l
+  315  cd ..
+  316  git clone git@github.com:martincarpinella/TP2_Carpinella_Martin.git
+  317  cd TP2_Carpinella_Martin/
+  318  ls -l
+  319  cd ..
+  320  ls -l
+  321  TP2_Carpinella_Martin/
+  322  cd ..
+  323  ls -l
+  324  pwd
+  325  exit
+  326  lsblk
+  327  pwd
+  328  cd repogit/
+  329  cd TP2_Carpinella_Martin/
+  330  sudo fdisk /dev/sdd
+  331  free
+  332  free -h
+  333  sudo mkswap /dev/sdd1
+  334  free -h
+  335  sudo swapon /dev/sdd1
+  336  free -h
+  337  swapon -s
+  338  cd repogit/
+  339  cd TP2_Carpinella_Martin/
+  340  sudo fdisk -l /dev/sdd
+  341  free -h
+  342  sudo swapon /dev/sdd1
+  343  free -h
+  344  sudo fdisk /dev/sdc
+  345  sudo wipefs -a /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6
+  346  sudo wipefs -a /dev/sdc1 /dev/sdc2
+  347  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+  348  sudo pvs
+  349  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+  350  sudo vgs
+  351  sudo pvs
+  352  sudo vgcreate vg_web /dev/sdc2
+  353  sudo pvs
+  354  sudo lvcreate -L 1G vg_web -n lv_web1
+  355  sudo lvcreate -L 512M vg_web -n lv_web2
+  356  sudo lvcreate -L 512M vg_web -n lv_web3
+  357  sudo lvs
+  358  sudo pvs
+  359  sudo fdisk -l
+  360  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+  361  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+  362  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+  363  git status
+  364  sudo pvs > pvs.txt
+  365  sudo vgs > vgs.txt
+  366  sudo lvs > lvs.txt
+  367  history > historial_lvm.txt
